@@ -1,0 +1,25 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-list>
+        <button ion-item >
+
+            <ion-list>
+                <button ion-item *ngFor="let item of recebeDado">
+                  
+                  {{item.nome}}
+
+                  
+                </button>  
+              </ion-list>
+         
+        </button>  
+      </ion-list>
+
+</ion-content>
